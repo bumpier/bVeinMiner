@@ -1,0 +1,36 @@
+name: bVeinMiner
+version: 1.3.0
+main: net.bumpier.bveinminer.BVeinMiner
+api-version: '1.21'
+author: bumpier.dev - AI
+description: A simple vein miner plugin.
+commands:
+  veinminer:
+    description: Toggles the vein miner feature.
+    usage: /<command> [on|off|autopickup|status]
+    permission: bveinminer.use
+  bvm:
+    description: Admin commands for bVeinMiner.
+    usage: /<command> reload
+    permission: bveinminer.admin
+permissions:
+  bveinminer.use:
+    description: Allows usage of the /veinminer command.
+    default: op
+  bveinminer.max.unlimited:
+    description: Allows unlimited vein mining.
+    default: op
+  bveinminer.max.*:
+    description: Wildcard permission for max blocks.
+    default: op
+  bveinminer.autopickup:
+    description: Allows the user to toggle and use auto-pickup.
+    default: op
+  bveinminer.admin:
+    description: Parent permission for admin commands.
+    default: op
+    children:
+      bveinminer.reload: true
+  bveinminer.reload:
+    description: Allows usage of the /bvm reload command.
+    default: op

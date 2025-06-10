@@ -1,0 +1,24 @@
+# Messages for bVeinMiner
+
+# Prefix for all plugin messages.
+prefix: "&8[&6bVeinMiner&8] "
+
+# Command messages
+veinminer-enabled: "&aVein Miner has been enabled."
+veinminer-disabled: "&cVein Miner has been disabled."
+veinminer-status-on: "&7Vein Miner is currently &aON&7."
+veinminer-status-off: "&7Vein Miner is currently &cOFF&7."
+no-permission: "&cYou do not have permission to use this command."
+invalid-usage: "&cInvalid usage. Use /veinminer [on|off|autopickup|status]"
+
+autopickup-enabled: "&aAuto-pickup has been enabled."
+autopickup-disabled: "&cAuto-pickup has been disabled."
+no-permission-autopickup: "&cYou do not have permission to use auto-pickup."
+
+# Admin messages
+reload-success: "&aConfiguration and messages have been reloaded."
+no-permission-reload: "&cYou do not have permission to reload the plugin."
+invalid-admin-usage: "&cInvalid usage. Use /bvm reload"
+
+# Action messages
+veinminer-complete: "&7Vein Miner broke &e{blocks} &7blocks."

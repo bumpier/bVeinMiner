@@ -1,0 +1,33 @@
+# bVeinMiner configuration
+
+# Enable debug logging to the console.
+# This will log detailed information about the plugin's operations.
+debug: false
+
+vein-miner:
+  # Default maximum number of blocks to be mined in one go.
+  # This can be overridden by the 'bveinminer.max.<number>' permission.
+  # Set to -1 for unlimited by default.
+  default-max-blocks: 64
+
+  # List of materials that are considered ores for vein mining.
+  # A list of valid materials can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  ores:
+    - "COAL_ORE"
+    - "DEEPSLATE_COAL_ORE"
+    - "COPPER_ORE"
+    - "DEEPSLATE_COPPER_ORE"
+    - "IRON_ORE"
+    - "DEEPSLATE_IRON_ORE"
+    - "GOLD_ORE"
+    - "DEEPSLATE_GOLD_ORE"
+    - "REDSTONE_ORE"
+    - "DEEPSLATE_REDSTONE_ORE"
+    - "LAPIS_ORE"
+    - "DEEPSLATE_LAPIS_ORE"
+    - "DIAMOND_ORE"
+    - "DEEPSLATE_DIAMOND_ORE"
+    - "EMERALD_ORE"
+    - "DEEPSLATE_EMERALD_ORE"
+    - "NETHER_GOLD_ORE"
+    - "NETHER_QUARTZ_ORE"
