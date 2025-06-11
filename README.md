@@ -1,7 +1,6 @@
 # bVeinMiner
 ### Mine smarter, not harder.
 
-[![Java CI with Maven](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/YOUR_USERNAME/bVeinMiner/actions)
 [![Spigot Version](https://img.shields.io/badge/Spigot-1.21.x-orange?style=for-the-badge&logo=spigotmc)](https://www.spigotmc.org/)
 [![Java Version](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=openjdk)](https://www.java.com/)
 
